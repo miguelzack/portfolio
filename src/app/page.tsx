@@ -189,7 +189,7 @@ export default function Home() {
               altText="Capa do projeto GlassUI"
               title="Glass UI"
               description="Landing Page with Tailwind."
-              projectLink="https://github.com/miguelzackk/course-funnel-test"
+              projectLink="https://github.com/miguelzackk/glass-ui"
             />
             <ProjectCard
               imageSrc={ProjectLogin}
