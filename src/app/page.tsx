@@ -180,7 +180,7 @@ export default function Home() {
               altText="Capa do projeto Landwind"
               title="Landwind"
               description="Landing Page with Tailwind."
-              projectLink="https://github.com/miguelzackk/meteora-bootstrap"
+              projectLink="https://github.com/miguelzackk/Landwind-Tailwind"
             />
           </div>
           <div className="flex lg:flex-row flex-col items-center gap-[30px] self-stretch w-full">

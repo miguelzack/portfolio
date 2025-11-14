@@ -9,7 +9,6 @@ const openSans = Open_Sans({
   display: "swap",
 });
 
-
 export const metadata: Metadata = {
   title: "Portfolio - Miguel Silva",
   description: "Portfolio de Miguel Silva",
@@ -23,16 +22,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta
-          name="keywords"
-          content="Portfolio Miguel Desenvolvimento"
-        />
+        <meta name="keywords" content="Portfolio Miguel Desenvolvimento" />
       </head>
-      <body
-        className={`${openSans.variable}  antialiased`}
-      >
-        {children}
-      </body>
+      <body className={`${openSans.variable}  antialiased`}>{children}</body>
     </html>
   );
 }
