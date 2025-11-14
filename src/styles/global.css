@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #ff4928;
+  --color-gray-custom: #7b7b7b;
+  --color-black-hover: #070707;
+  --color-utility-gray: #667085;
+  --color-border-form: rgba(123, 123, 123, 0.20);
+  --color-font-form: rgba(123, 123, 123, 0.50);
+  --color-bg-menu: rgba(255, 255, 255, 0.95);
+  --color-border-card: rgba(123, 123, 123, 0.20);
+  --color-border-skills: rgba(255, 255, 255, 0.10);
+}
+
+@layer base {
+  :root {
+    --font-open-sans: "Open Sans", sans-serif;
+  }
+
+  html {
+    font-family: var(--font-open-sans), sans-serif;
+  }
+}
