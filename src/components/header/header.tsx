@@ -9,7 +9,7 @@ export function Header() {
   return (
     <header className="flex items-center 2xl:gap-[220px] xl:gap-[190px] w-full md:justify-center md:gap-6 justify-between">
       <h2 className="xl:text-[40px] md:text-[23px] text-[24px] font-extrabold">
-        Migue Silva.
+        Miguel <span className="text-primary">Silva.</span>
       </h2>
 
       <div className="wrapper-nav hidden md:flex items-center 2xl:gap-[220px] xl:gap-[190px] gap-6">
