@@ -83,7 +83,7 @@ export default function Home() {
               <Badge label="UI/UX Designer" />
             </div>
             <h1 className="md:text-[90px] sm:text-[65px] text-2xl font-extrabold">
-              <span className="text-primary">Miguel</span> Silva.
+            Miguel Silva.
             </h1>
             <div className="flex flex-col items-center self-stretch sm:gap-[30px] gap-5">
               <p className="sm:text-xl text-base font-normal text-utility-gray text-center w-full">
