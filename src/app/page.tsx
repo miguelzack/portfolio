@@ -172,7 +172,7 @@ export default function Home() {
               altText="Capa do projeto Pokémon Search Form"
               title="Pokémon Search Form"
               description="Pokedex consuming PokéApi."
-              projectLink="https://github.com/miguelzackk/pokemon-search-form"
+              projectLink="https://pokemon-search-form-seven.vercel.app/"
             />
 
             <ProjectCard
@@ -180,23 +180,23 @@ export default function Home() {
               altText="Capa do projeto Landwind"
               title="Landwind"
               description="Landing Page with Tailwind."
-              projectLink="https://github.com/miguelzackk/meteora-bootstrap"
+              projectLink="https://landwind-tailwind-three.vercel.app/"
             />
           </div>
           <div className="flex lg:flex-row flex-col items-center gap-[30px] self-stretch w-full">
+            <ProjectCard
+              imageSrc={ProjectMeteora}
+              altText="Capa do projeto Meteora"
+              title="Meteora"
+              description="E-commerce with HTML, Bootstrap, JS, PHP and PostGreeSQL."
+              projectLink="https://meteora-eccomerce.vercel.app/"
+            />
             <ProjectCard
               imageSrc={ProjectGlassUI}
               altText="Capa do projeto GlassUI"
               title="Glass UI"
               description="Landing Page with Tailwind."
-              projectLink="https://github.com/miguelzackk/course-funnel-test"
-            />
-            <ProjectCard
-              imageSrc={ProjectLogin}
-              altText="Capa do projeto Login"
-              title="Login"
-              description="Login Page with Tailwind."
-              projectLink="https://github.com/miguelzackk/login-with-tailwind"
+              projectLink="https://glass-ui-taupe.vercel.app/"
             />
           </div>
           <div className="flex lg:flex-row flex-col items-center gap-[30px] self-stretch w-full">
@@ -205,14 +205,14 @@ export default function Home() {
               altText="Capa do projeto Course Fournel"
               title="Course Funnel Test"
               description="Landing Page with Tailwind."
-              projectLink="https://github.com/miguelzackk/course-funnel-test"
+              projectLink="https://course-funnel-test.vercel.app/"
             />
             <ProjectCard
-              imageSrc={ProjectMeteora}
-              altText="Capa do projeto Meteora"
-              title="Meteora"
-              description="E-commerce with Bootstrap."
-              projectLink="https://github.com/miguelzackk/meteora-bootstrap"
+              imageSrc={ProjectLogin}
+              altText="Capa do projeto Login"
+              title="Login"
+              description="Login Page with Tailwind."
+              projectLink="https://login-with-tailwind.vercel.app/"
             />
           </div>
         </div>
