@@ -176,20 +176,20 @@ export default function Home() {
             />
 
             <ProjectCard
-              imageSrc={ProjectLandwind}
-              altText="Capa do projeto Landwind"
-              title="Landwind"
-              description="Landing Page with Tailwind."
-              projectLink="https://landwind-tailwind-three.vercel.app/"
-            />
-          </div>
-          <div className="flex lg:flex-row flex-col items-center gap-[30px] self-stretch w-full">
-            <ProjectCard
               imageSrc={ProjectMeteora}
               altText="Capa do projeto Meteora"
               title="Meteora"
               description="E-commerce with HTML, Bootstrap, JS, PHP and PostGreeSQL."
               projectLink="https://meteora-eccomerce.vercel.app/"
+            />
+          </div>
+          <div className="flex lg:flex-row flex-col items-center gap-[30px] self-stretch w-full">
+            <ProjectCard
+              imageSrc={ProjectLandwind}
+              altText="Capa do projeto Landwind"
+              title="Landwind"
+              description="Landing Page with Tailwind."
+              projectLink="https://landwind-tailwind-three.vercel.app/"
             />
             <ProjectCard
               imageSrc={ProjectGlassUI}
