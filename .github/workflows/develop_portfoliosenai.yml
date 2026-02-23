@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy Node.js app to Azure Web App - portfolioSenai
+name: Build and deploy Node.js app to Azure Web App - PortfolioSenai
 
 on:
   push:
@@ -51,15 +51,15 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_15F9C8BB11624E4C920E0F470725179E }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_5118CA24CB9E44308519412F4E714948 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_043A0FD72222499787DE1AC814FB7253 }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_D0F3D142591142B28EFD9D693E67DA20 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_7BC0B0D527D54022BD86D84834E7E47B }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_26519B06867142D7B0C036361B1DC541 }}
 
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'portfolioSenai'
+          app-name: 'PortfolioSenai'
           slot-name: 'Production'
           package: .
           
